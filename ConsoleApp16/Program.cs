@@ -4,7 +4,14 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            string[] a = new string[]
+            {
+                "abc", "def", "123"
+            };
+            foreach (string s in a)
+            {
+                Console.WriteLine(s + " ");
+            }
         }
     }
 }
